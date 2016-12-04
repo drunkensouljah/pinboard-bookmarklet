@@ -10,19 +10,55 @@ var appUrl = null;
 // When set to true, selected text is quoted using <blockquote>.
 // Note that Markdown is not supported in link descriptions because of an XSS
 // vulnerability: https://twitter.com/Pinboard/status/22436355472625664
-var quoteSelection = false;
+var quoteSelection = true;
 
 // When this text appears in title or description, they are added as tags.
 var tagKeywords = {
   javascript:'javascript',
   js:'javascript',
-  python:'python',
+  python:'python dev',
   ios:'ios',
   youtube:'video',
+  mp3:'musik',
   vimeo:'video',
   video:'video',
-  books:'book',
-  book:'book'
+  github:'github',
+  apple:'apple',
+  template:'template',
+  iphone:'iphone ios',
+  uberspace:'uberspace',
+  opensource:'opensource',
+  code:'dev',
+  guide:'tutorial',
+  xbox:'zocken',
+  amazon:'einkaufen',
+  tutorial:'tutorial',
+  howto:'tutorial',
+  gist:'gist git',
+  gists:'gist git',
+  cli:'cli shell',
+  shell:'cli',
+  git:'git',
+  zsh:'shell',
+  books:'buch',
+  collection:'sammlung',
+  json:'json',
+  api:'api',
+  html:'webdev',
+  jquery:'webdev',
+  audio:'musik',
+  framework:'framework',
+  synology:'synology nas',
+  raspberry:'raspberry',
+  markdown:'markdown',
+  spotify:'musik',
+  alfred:'workflow alfred',
+  workflow:'workflow',
+  wordpress:'wordpress webdev wordpress',
+  css:'webdev css',
+  bootstrap:'webdev framework bootstrap',
+  rss:'feed',
+  book:'buch'
 };
 
 // this matches domain names to special selectors for the title
