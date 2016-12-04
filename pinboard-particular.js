@@ -52,6 +52,7 @@ var tagKeywords = {
   raspberry:'raspberry',
   markdown:'markdown',
   spotify:'musik',
+  dotfiles:'dotfiles git config',
   alfred:'workflow alfred',
   workflow:'workflow',
   wordpress:'wordpress webdev wordpress',
