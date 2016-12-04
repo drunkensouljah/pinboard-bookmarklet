@@ -1,6 +1,5 @@
-# particular pinboard
-
-A modification of the [pinboard bookmarklet][pinboard] with enhancements that appeal to my fiddly nature. 
+# Pinboard Bookmarklet
+Based on the [particular pinboard][particularpinboard], which is a modification of the [pinboard bookmarklet][pinboard] with enhancements that appeal to my fiddly nature. 
 
 - Title is cleaned of extraneous "SEO-junk" through heuristics based on page structure 
 - Description field is populated with the selected text, or pulled from description tags in page header
@@ -10,9 +9,9 @@ This bookmarklet is based on an existing modification to the pinboard bookmarkle
 
 ## Bookmarklets
 
-- [Regular](https://gist.github.com/cfd44a7a72442bb734eb)
-- [Read Later](https://gist.github.com/98d36e72c48d1795553a)
-- [Pinswift iOS app](https://gist.github.com/ff3d0c2e84def744a53d)
+- [Regular](https://gist.github.com/drunkensouljah/7df7bf3be73e3b42973f0d5f0a50d29b#file-bookmark-js)
+- [Read Later](https://gist.github.com/drunkensouljah/7df7bf3be73e3b42973f0d5f0a50d29b#file-readlater-js)
+- [Pinswift iOS app](https://gist.github.com/drunkensouljah/7df7bf3be73e3b42973f0d5f0a50d29b#file-pinswift-js)
 
 # Building
 
@@ -34,6 +33,7 @@ You can enable or disable various features by modifying the constants at the top
 
 This code is public domain. Fork it as the basis for your own particular pinboard and let me know what you discover.
 
+[particularpinboard]:https://github.com/joelcarranza/particular-pinboard
 [pinboard]:http://pinboard.in/howto/
 [benward]:https://gist.github.com/BenWard/801657
 [pinswift]:http://pinswiftapp.com/
